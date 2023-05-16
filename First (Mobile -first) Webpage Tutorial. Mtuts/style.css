@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+a {
+  list-style: none;
+}
+
+header {
+  background-color: white;
+  width: 100%;
+  height: 100px;
+}
+
+header .header-brand {
+  font-family: Catamaran;
+  font-size: 24px;
+  font-weight: 900;
+  color: #111;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header nav ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 16px;
+}
+header nav ul li a {
+  font-family: Catamaran;
+  font-size: 16px;
+  color: #111;
+}
+
+header .header-cases {
+  display: none;
+}
+
+/* index */
+
+.index-banner {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url(img/pexels-photo-2883049.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.index-banner h2 {
+  font-family: Catamaran;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 70px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.index-banner h1 {
+  font-family: Cormorant Garamond;
+  font-size: 28px;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.index-links div {
+  margin: 16px 16px 0;
+  width: calc(100%-32px);
+  height: 100px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index-links div h3 {
+  font-family: Catamaran;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 40px;
+  color: #111;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* footer */
+
+footer {
+  margin-top: 10px;
+  background-color: #111;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+
+.footer-section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  list-style: none;
+  padding-left: 20%;
+  line-height: 30px;
+}
+
+.footer-section-1 li a {
+  color: white;
+  font-size: 12px;
+}
+
+.footer-section-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  list-style: none;
+  padding-left: 20%;
+  line-height: 30px;
+}
+.footer-section-2 li a {
+  color: white;
+  font-size: 12px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  gap: 30px;
+}
